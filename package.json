@@ -1,6 +1,8 @@
 {
   "name": "vitest-monorepo",
   "version": "0.1.0",
+  "private": true,
+  "workspaces": ["packages/*"],
   "repository": "https://github.com/programmer24601/vitest-monorepo",
   "type": "module",
   "bin": {
